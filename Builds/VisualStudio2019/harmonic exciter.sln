@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2019
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "harmonic exciter - Standalone Plugin", "harmonic exciter_StandalonePlugin.vcxproj", "{81E8EE53-777E-0319-CDDE-A8894C70D989}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CF98F415-324A-C3B3-F7A2-3436A5F42EC4} = {CF98F415-324A-C3B3-F7A2-3436A5F42EC4}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "harmonic exciter - VST", "harmonic exciter_VST.vcxproj", "{CF00C7D3-FA1C-FE9A-9D58-0EB3DF4B1AB0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CF98F415-324A-C3B3-F7A2-3436A5F42EC4} = {CF98F415-324A-C3B3-F7A2-3436A5F42EC4}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "harmonic exciter - VST3", "harmonic exciter_VST3.vcxproj", "{37C94060-7503-8FB1-B6ED-5ECAA633A11E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CF98F415-324A-C3B3-F7A2-3436A5F42EC4} = {CF98F415-324A-C3B3-F7A2-3436A5F42EC4}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "harmonic exciter - Shared Code", "harmonic exciter_SharedCode.vcxproj", "{CF98F415-324A-C3B3-F7A2-3436A5F42EC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF00C7D3-FA1C-FE9A-9D58-0EB3DF4B1AB0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CF00C7D3-FA1C-FE9A-9D58-0EB3DF4B1AB0}.Debug|Win32.Build.0 = Debug|Win32
+		{CF00C7D3-FA1C-FE9A-9D58-0EB3DF4B1AB0}.Release|Win32.ActiveCfg = Release|Win32
+		{CF00C7D3-FA1C-FE9A-9D58-0EB3DF4B1AB0}.Release|Win32.Build.0 = Release|Win32
+		{37C94060-7503-8FB1-B6ED-5ECAA633A11E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{37C94060-7503-8FB1-B6ED-5ECAA633A11E}.Debug|Win32.Build.0 = Debug|Win32
+		{37C94060-7503-8FB1-B6ED-5ECAA633A11E}.Release|Win32.ActiveCfg = Release|Win32
+		{37C94060-7503-8FB1-B6ED-5ECAA633A11E}.Release|Win32.Build.0 = Release|Win32
+		{81E8EE53-777E-0319-CDDE-A8894C70D989}.Debug|Win32.ActiveCfg = Debug|Win32
+		{81E8EE53-777E-0319-CDDE-A8894C70D989}.Debug|Win32.Build.0 = Debug|Win32
+		{81E8EE53-777E-0319-CDDE-A8894C70D989}.Release|Win32.ActiveCfg = Release|Win32
+		{81E8EE53-777E-0319-CDDE-A8894C70D989}.Release|Win32.Build.0 = Release|Win32
+		{CF98F415-324A-C3B3-F7A2-3436A5F42EC4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CF98F415-324A-C3B3-F7A2-3436A5F42EC4}.Debug|Win32.Build.0 = Debug|Win32
+		{CF98F415-324A-C3B3-F7A2-3436A5F42EC4}.Release|Win32.ActiveCfg = Release|Win32
+		{CF98F415-324A-C3B3-F7A2-3436A5F42EC4}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
