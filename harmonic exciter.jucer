@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="IsFxFb" name="harmonic exciter" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              pluginFormats="buildStandalone,buildVST,buildVST3" pluginName="Harmonic Exciter"
+              pluginCode="c++" pluginVST3Category="Distortion" pluginVSTCategory="kPlugCategUnknown"
+              maxBinaryFileSize="10485760">
+  <MAINGROUP id="lETgEm" name="harmonic exciter">
+    <GROUP id="{901CF2FA-11F0-7FC3-0044-EAE082F38870}" name="Source">
+      <FILE id="GE2c6x" name="knob.h" compile="0" resource="0" file="Source/knob.h"/>
+      <FILE id="WtYnQ7" name="knob.cpp" compile="1" resource="0" file="Source/knob.cpp"/>
+      <FILE id="WjarSX" name="interfaz.h" compile="0" resource="0" file="Source/interfaz.h"/>
+      <FILE id="IopQk1" name="interfaz.cpp" compile="1" resource="0" file="Source/interfaz.cpp"/>
+      <FILE id="Uh58tK" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="t3FS6I" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="EvMosj" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="t8uX0D" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019" vstLegacyFolder="..\..\programas\SDK STEINBERG\VST3 SDK">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="harmonic exciter" useRuntimeLibDLL="0"
+                       winArchitecture="Win32"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="harmonic exciter" useRuntimeLibDLL="0"
+                       winArchitecture="Win32"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../programas/JUCE personal/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../programas/JUCE personal/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../programas/JUCE personal/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../programas/JUCE personal/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../programas/JUCE personal/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../programas/JUCE personal/modules"/>
+        <MODULEPATH id="juce_core" path="../../programas/JUCE personal/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../programas/JUCE personal/modules"/>
+        <MODULEPATH id="juce_events" path="../../programas/JUCE personal/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../programas/JUCE personal/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../programas/JUCE personal/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../programas/JUCE personal/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
