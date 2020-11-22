@@ -2,7 +2,7 @@
 
 This Plugin is based on a simple Harmonic Exciter whose parameters are manage with knobs. Ii is inspirated by Aphex aural exciter, following the same block diagram ilustrate in DAFX book.
 
-![](interfaz.PNG)
+![](Interfaz.PNG)
 
 # License
 
