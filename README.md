@@ -1,6 +1,6 @@
 # Harmonic-exciter
 
-This Plugin is based on a simple Harmonic Exciter whose parameters are manage with knobs. It is inspirated by Aphex aural exciter, following the same block diagram ilustrate in DAFX book.
+This Plugin is based on a simple Harmonic Exciter whose parameters are managed with knobs. It is inspirated by Aphex aural exciter, following the same block diagram ilustrated in DAFX book.
 
 ![](Interfaz.PNG)
 
